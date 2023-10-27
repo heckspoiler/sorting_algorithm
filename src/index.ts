@@ -7,7 +7,8 @@ const numbersCollection = new NumbersCollection([10, 2, 3, 4, 5, -9]);
 numbersCollection.sort();
 console.log(numbersCollection.data);
 
-// const charactersCollection = new CharactersCollection('XaaYbgAef');
-// const sorter = new Sorter(charactersCollection);
-// sorter.sort();
-// console.log(charactersCollection.data);
+const charactersCollection = new CharactersCollection(
+  'jöjklöadfsjköldsfjklödafsjklödafsjklfsd'
+);
+charactersCollection.sort();
+console.log(charactersCollection.data);
