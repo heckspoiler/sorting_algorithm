@@ -1,5 +1,5 @@
 const logSomething = () => {
-  console.log('something');
+  console.log('123');
 };
 
 logSomething();
